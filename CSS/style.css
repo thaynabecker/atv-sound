@@ -1,0 +1,53 @@
+/* FORMATAÇÃO GERAL */
+
+/*FORMATAÇÃO TOPO*/
+header {
+    margin: 0 5vw 3vw 5vw;
+}
+header nav ul{
+    display:flex;
+    justify-content:right;
+}
+
+header nav ul li{
+    margin: 1vw 10px 0 10px;
+}
+
+header nav ul.login a{
+    color: #553C16;
+    text-decoration: none;
+}
+section div.banner {
+    display: flex;
+}
+section div.lista {
+    display: flex;
+}
+section div {
+    list-style: none;
+}
+section div span {
+    color: gray;
+    
+}
+
+/*FORMATAÇÃO RODAPÉ*/
+footer {
+    text-align: center; 
+    padding: 0 0 2vw 0;
+}
+
+footer nav ul {
+    display: flex; 
+    justify-content: center; 
+}
+
+footer nav ul li {
+    margin: 0 5px 5px 5px;
+    font-size: 2rem;
+}
+
+footer nav ul li a span {
+    color: black; 
+    padding: 10px ;
+}
