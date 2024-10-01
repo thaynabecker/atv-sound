@@ -1,4 +1,7 @@
 /* FORMATAÇÃO GERAL */
+html {
+    list-style: none;
+}
 
 /*FORMATAÇÃO TOPO*/
 header {
@@ -17,6 +20,8 @@ header nav ul.login a{
     color: #553C16;
     text-decoration: none;
 }
+
+/*FORMATAÇÃO MAIN*/
 section div.banner {
     display: flex;
 }
@@ -28,7 +33,7 @@ section div {
 }
 section div span {
     color: gray;
-    
+
 }
 
 /*FORMATAÇÃO RODAPÉ*/
